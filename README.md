@@ -15,6 +15,11 @@ ejercicios clase Aplicaciones Web
 ```
 
 - explica las 3 formas de usar CSS en HTML
+```html
+Interno:
+Externo:
+En linea:
+```
 - crea una lista sin ordenar con 5 ingredientes de una receta de cocina
 - como se puede incluir javascript en HTML
 - ¿Que diferencia hay entre una clase y una ID
