@@ -2,6 +2,17 @@
 ejercicios clase Aplicaciones Web
 
 - estructura mínima de una web
+´´´html
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
+
 - explica las 3 formas de usar CSS en HTML
 - crea una lista sin ordenar con 5 ingredientes de una receta de cocina
 - como se puede incluir javascript en HTML
