@@ -16,7 +16,13 @@ ejercicios clase Aplicaciones Web
 
 - explica las 3 formas de usar CSS en HTML
 ```html
-Interno:
+Interno: El interno es creando una etiqueta de style y aplicandolo en la etiqueta deseada, por ejemplo 
+<style>
+p {
+	text-align: center
+}
+</style>
+
 Externo:
 En linea:
 ```
