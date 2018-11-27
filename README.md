@@ -61,9 +61,37 @@ Class: Este selector puede ser utilizado en mas elementos y se aplicarian los es
  <a href="https://google.es" target="_blank">Link a Google</a> 
 ```
 - ¿Qué son las pseudoclases?, pon ejemplos.
-
+```html
+Las pseudoclases sirven para dar un estilo un elemento dependiendo de donde esten colocados en la estructura del documento. Se definen añadiendo 2 puntos antes de la clase a la que se quiere añadir el pseudoelemento. Por ejemplo con el target podemos hacer que un link cambie de color al ponerte encima.
+:active :hover :target
+```
 - Explica el modelo de caja de CSS (margin, border y padding)
+```html
+Las cajas son la base del diseño web, son cajas rectagulares con sus caracteristicas como el padding, borde, margen con las que podemos modificar las medidas de las cajas y de las etiquetas. La suma de estos estilos no puede ser superior a la de la caja principal, ya que se descuadraria la pagina.
+Tambien tenemos el width y el height para definir la altura y la anchura de la pagina. Tenemos la opcion de ir anidando cajas unas con otras para poder diversificar el codigo y manejarlo mejor
+```
 - Explica que son los selectores de CSS y pon ejemplos
+```html
+Existen varios tipos de selectores.
+	Selector universal: Se utiliza para seleccionar todos los elementos de la pagina, con este ejemplo podemos poner un padding de 5px en todas los elementos html
+		*{
+			paddign: 5px;
+		  }
+	Selector tipo etiqueta: Selecciona solo los elementos de html que identificamos antes, por ejemplo, si queremos escoger todos los parrafos, lo hariamos asi.
+		p {
+			padding: 5px;
+		  }
+		h1{
+			color: black;
+		  }
+	Selector descendente: Selecciona los elementos que estan anidados en otros elementos, en este ejemplo selecciona todos los elementos <span> que se encuentra dentro de un elemento <p>
+		p span { 
+			color: red; 
+			}
+Tambien existen los selectores de clase e ID.
+	<p class="selectorclase">asi seleccionamos un selector de clase</p>
+	<p id="selectorid">asi seleccionamos un selector id</p>
+```
 - Di a quien afectan:
 
     p a { color: red;
