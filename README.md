@@ -94,32 +94,32 @@ Tambien existen los selectores de clase e ID.
 ```
 - Di a quien afectan:
 
-    p a { color: red;
+   p a { color: red;
 ```html
 los elementos a que esten dentro de pe se vuelven rojos
 ```
 
-    p > a { color: red; }
+   p > a { color: red; }
 ```html
 los hijos directos de p se vuelven rojos
 ```
 
-    h1 + h2 { color: red }
+   h1 + h2 { color: red }
 ```html
 los elementos h2 se vuelven rojos si estan despues de un h1
 ```
 
-    a[class] { color: blue; }
+   a[class] { color: blue; }
 ```html
 tods los enlaces que esten en clases se vuelven azules
 ```
 
-    a[class="externo"] { color: blue; }
+   a[class="externo"] { color: blue; }
 ```html
 los enlaces con la clase externo se vuelven azules
 ```
 
-    a[href="http://www.ejemplo.com"] { color: blue; }
+   a[href="http://www.ejemplo.com"] { color: blue; }
 ```html
 los enlaces que estan dentro se vuelven azules
 ```
