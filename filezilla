@@ -1,0 +1,14 @@
+sudo add-apt-repository ppa:alexlarsson/flatpak
+sudo apt-get update
+sudo apt-get install flatpak
+
+
+descargamos filezilla
+opciones > conexiones > sftp
+introducimos el archivo ppk o pem que tengamos del servidor
+ip del servidor
+user: ubuntu
+pass: blanco
+puerto: 22
+
+y ya se conecta
